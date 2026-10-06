@@ -1,0 +1,9 @@
+# Flat keys. Priority: flags > PHI_GATE_* environment > config file > defaults.
+provider = "ollama"
+model = "tev1:4b"
+base_url = "http://localhost:11434"
+api_key_env = "PHI_GATE_API_KEY"
+threshold = 0.5
+timeout = 30
+# Small input budget for experimental decision-model context windows.
+max_input_bytes = 1024
